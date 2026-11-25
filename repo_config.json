@@ -1,0 +1,15 @@
+{
+  "repo_owner": "meed0ff",
+  "repo_name": "eternum-modpack",
+  "branch": "main",
+  "pack_version": "1.0 - test",
+  "minecraft_version": "26.3",
+  "loader_type": "fabric",
+  "loader_version": "0.20.1",
+  "server_name": "Eternum",
+  "server_ip": "eternum.aurorix.pro",
+  "bundles_extract_map": {
+    "kubejs.zip": "kubejs",
+    "root.zip": ""
+  }
+}

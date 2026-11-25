@@ -1,0 +1,609 @@
+{
+  "schemaVersion": 1,
+  "packVersion": "1.0 - test",
+  "server": {
+    "name": "Eternum",
+    "ip": "eternum.aurorix.pro"
+  },
+  "minecraft": {
+    "version": "26.3"
+  },
+  "loader": {
+    "type": "fabric",
+    "version": "0.20.1",
+    "installer_url": "https://meta.fabricmc.net/v2/versions/loader/26.3/0.20.1/profile/json"
+  },
+  "elyby": {
+    "clientId": "astralforge1"
+  },
+  "files": [
+    {
+      "path": "mods/AdvancementPlaques-26.3-fabric-1.7.3.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/9NM0dXub/versions/CWKBEIsY/AdvancementPlaques-26.3-fabric-1.7.3.jar",
+      "sha256": "fe1b6bc1de2ef3c94f3155a47443a74bbe41f562a155c056fd6171850f815382",
+      "size": 196090
+    },
+    {
+      "path": "mods/almanac-fabric-26.3-1.26.11.1.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/Gi02250Z/versions/mSuvUaBg/almanac-fabric-26.3-1.26.11.1.jar",
+      "sha256": "209a7df44be06518dcc1a79f85504b864c7a676ed88e469638b57d7d2aa2fff2",
+      "size": 438706
+    },
+    {
+      "path": "mods/alternate-current-mc26.3-1.9.0.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/r0v8vy1s/versions/nSBWPz6x/alternate-current-mc26.3-1.9.0.jar",
+      "sha256": "5cef09f286936bbac1cbf173d11ce4b9dbe6278cee8bd8a347a87a2782c45d41",
+      "size": 52230
+    },
+    {
+      "path": "mods/appleskin-fabric-mc26.3-3.0.10.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/EsAfCjCV/versions/PHjDtQay/appleskin-fabric-mc26.3-3.0.10.jar",
+      "sha256": "cb05087c39f0d860611aa1fae7cf63560214d1b71378a7c903c18dc370b5c3ce",
+      "size": 180194
+    },
+    {
+      "path": "mods/architectury-fabric-22.0.5.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/1pMaB6So/architectury-fabric-22.0.5.jar",
+      "sha256": "c6a60979f75fdf07a97971711b42529bc84cd7e4c873625d2ce0faf34278ecda",
+      "size": 622542
+    },
+    {
+      "path": "mods/AttributeFix-fabric-MC26.3-26.3.0.1.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/lOOpEntO/versions/zJLURVLx/AttributeFix-fabric-MC26.3-26.3.0.1.jar",
+      "sha256": "675960030975779d8ab87b405f10e10b5f8897dd5e9f7543bc7570c250066cbb",
+      "size": 20980
+    },
+    {
+      "path": "mods/baguettelib-26.3-Fabric-2.0.8.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/OfKzpbRU/versions/T7PHIuOE/baguettelib-26.3-Fabric-2.0.8.jar",
+      "sha256": "b7e635eab1e659764e1968dbbd31107e0ecaa08c8afb50acd315b34fcd5826c7",
+      "size": 106523
+    },
+    {
+      "path": "mods/balm-fabric-26.3-26.3.0.3.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/MBAkmtvl/versions/MYj31XNG/balm-fabric-26.3-26.3.0.3.jar",
+      "sha256": "58dfb365cf00580abac9be69fbdac0271c7a8ce9d57d2f785933f49b37b18efd",
+      "size": 1213047
+    },
+    {
+      "path": "mods/boatiview-fabric-0.0.11-26.3.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/BdKIyOLe/versions/IBhsOJlh/boatiview-fabric-0.0.11-26.3.jar",
+      "sha256": "41bc0f04e01b38e683c781694002d3e917fac4d00b6bb2d64b700fdebe9ac23d",
+      "size": 1061984
+    },
+    {
+      "path": "mods/chatanimation-fabric-1.3.5+mc26.3.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/DnNYdJsx/versions/QZcotIcS/chatanimation-fabric-1.3.5%2Bmc26.3.jar",
+      "sha256": "912ca51796cf72c12109c4fe851ea14a0781872bcaad8db34e75e823d407dcad",
+      "size": 433526
+    },
+    {
+      "path": "mods/chatpatches-8.0.0+26.3-fabric.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/MOqt4Z5n/versions/aX8lmXzZ/chatpatches-8.0.0%2B26.3-fabric.jar",
+      "sha256": "021309a6814c575915a2d691257a34dde098cd83d3e178bf3ce84bd02dc073b1",
+      "size": 1542732
+    },
+    {
+      "path": "mods/chat_heads-1.3.2-fabric-26.3.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/Wb5oqrBJ/versions/i3gcElvQ/chat_heads-1.3.2-fabric-26.3.jar",
+      "sha256": "1da6f5e86ba3920e096509e1d6d7bb5613b7458ff5b2d4be7144925e0d3f545d",
+      "size": 98686
+    },
+    {
+      "path": "mods/clientsort-fabric-3.104.1+26.3.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/K0AkAin6/versions/UWMryUad/clientsort-fabric-3.104.1%2B26.3.jar",
+      "sha256": "37f812d25307bc011be64a4853e26d848b858599c5068244dd857c521d4078ce",
+      "size": 356994
+    },
+    {
+      "path": "mods/cloth-config-fabric-26.3.159.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/fg2uyxOW/cloth-config-fabric-26.3.159.jar",
+      "sha256": "1716b9964f90d2b885f9bd3887f8824b71b55c32a4123a5853486e722f7c2e4b",
+      "size": 1135009
+    },
+    {
+      "path": "mods/Clumps-fabric-26.3-26.3.2.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/Wnxd13zP/versions/J4I1wxJZ/Clumps-fabric-26.3-26.3.2.jar",
+      "sha256": "8c72b1505a11ad93ed19b5a914eb6a036da92eb323d58da288bef36c19ed7624",
+      "size": 20154
+    },
+    {
+      "path": "mods/collective-26.3.0-8.86.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/e0M1UDsY/versions/jfxbozAD/collective-26.3.0-8.86.jar",
+      "sha256": "6f8ea5dae041f623c905fe3bc9b3008b3d7ec67cafb54e4fff87f4ddb5071a24",
+      "size": 1665489
+    },
+    {
+      "path": "mods/CreativeCore_FABRIC_v2.14.25_mc26.3.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/OsZiaDHq/versions/pB8O6fTf/CreativeCore_FABRIC_v2.14.25_mc26.3.jar",
+      "sha256": "65d3dbfd869d884c3952970f9162363afcd81f7d265b1190c4bdf603a4442179",
+      "size": 1422746
+    },
+    {
+      "path": "mods/cristellib-fabric-26.3-3.1.13.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/cl223EMc/versions/rWxmPrGC/cristellib-fabric-26.3-3.1.13.jar",
+      "sha256": "69e03ac9c1bf853f22d594d853baa3c10c0219aff8a90c21aed05596b57f2960",
+      "size": 588323
+    },
+    {
+      "path": "mods/cursors_extended-fabric-4.2.0+26.3.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/o5fhgLeQ/versions/XKK8MXkR/cursors_extended-fabric-4.2.0%2B26.3.jar",
+      "sha256": "5ec380fdb0b34be5d211aa3a729322d701452ebbe57cfc5201025178acc7126a",
+      "size": 713787
+    },
+    {
+      "path": "mods/dynamic-fps-3.11.10+minecraft-26.3.0-fabric.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/LQ3K71Q1/versions/Jwq069rR/dynamic-fps-3.11.10%2Bminecraft-26.3.0-fabric.jar",
+      "sha256": "a186d7cdfa3738935cb8425026d118013916fdcfbc060e4397d22368d0bb6594",
+      "size": 189474
+    },
+    {
+      "path": "mods/dynamiccrosshair-9.15+26.3-fabric.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/ZcR9weSm/versions/fs87t6jf/dynamiccrosshair-9.15%2B26.3-fabric.jar",
+      "sha256": "b6a7ab403a192a6d7816eeb929e750f10a83bb644c32ca63e60f01db147ce711",
+      "size": 534473
+    },
+    {
+      "path": "mods/entityculling-fabric-1.12.1-mc26.3.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/UWpkLRV5/entityculling-fabric-1.12.1-mc26.3.jar",
+      "sha256": "60b9a5490a0eba5caa9bcb679b1a1e700a5d63dcd82d721e0d238477c0dfaf0f",
+      "size": 1522184
+    },
+    {
+      "path": "mods/fabric-api-0.166.2+26.3.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/Zns5SSRA/fabric-api-0.166.2%2B26.3.jar",
+      "sha256": "e8acacc7836f39237c83c2a664b039647ee36f93822797acc40cda44666002ea",
+      "size": 1797523
+    },
+    {
+      "path": "mods/fabric-language-kotlin-1.14.2+kotlin.2.4.21.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/Ha28R6CL/versions/SKW1BTL3/fabric-language-kotlin-1.14.2%2Bkotlin.2.4.21.jar",
+      "sha256": "fbdbf5286ab9d65fedb49e6e01c15e338ae303eb7b9d8c7423d0a9bcfe526ef9",
+      "size": 8142878
+    },
+    {
+      "path": "mods/fast-ip-ping-v1.0.12-mc26.3.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/9mtu0sUO/versions/N6hOHbOO/fast-ip-ping-v1.0.12-mc26.3.jar",
+      "sha256": "088b5168cdd8cd0655bcb503efcba803d2dee0ba12c275908dad49f013229130",
+      "size": 11310
+    },
+    {
+      "path": "mods/ferritecore-9.0.0-fabric.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/d5ddUdiB/ferritecore-9.0.0-fabric.jar",
+      "sha256": "213966c72ed967acc7392beb28a866fba301ff56b9976c2e7801c2db7de6bf22",
+      "size": 72677
+    },
+    {
+      "path": "mods/ForgeConfigAPIPort-v26.3.1-mc26.3.x-Fabric.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/JpKvrr9J/ForgeConfigAPIPort-v26.3.1-mc26.3.x-Fabric.jar",
+      "sha256": "95cc2bd7a943f910a54baf2f65acde301dcfb3d8aeff2c989c04c416d5a4a1cd",
+      "size": 609574
+    },
+    {
+      "path": "mods/fzzy_config-0.7.7+fix3+26.3.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/hYykXjDp/versions/YkOumqzV/fzzy_config-0.7.7%2Bfix3%2B26.3.jar",
+      "sha256": "3d98c61215ae5eb2fe08db5cac6b0da08dc1b6f0a9ac082a3a9ead8eed736b2a",
+      "size": 2375413
+    },
+    {
+      "path": "mods/held-item-info-1.9.3.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/tEcWzCZz/versions/4rTrB3O6/held-item-info-1.9.3.jar",
+      "sha256": "28bee15c1c3e98ca7c1757933131d9e517abb2b7b8c6a36c1f6a4dd0e85823e4",
+      "size": 83067
+    },
+    {
+      "path": "mods/Highlighter-26.3-fabric-1.2.3.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/cVNW5lr6/versions/aaau0F2w/Highlighter-26.3-fabric-1.2.3.jar",
+      "sha256": "8aee4e78fce0e5b50f6bca30902eaefd5f4e6675c2ddd88413c8140b26c44de6",
+      "size": 29418
+    },
+    {
+      "path": "mods/Iceberg-26.3-fabric-1.4.3.1.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/5faXoLqX/versions/zhVGUJyW/Iceberg-26.3-fabric-1.4.3.1.jar",
+      "sha256": "9d725cc2790c072619bf58846089f33615292af914bcd7b195cda4c5ae07387e",
+      "size": 361211
+    },
+    {
+      "path": "mods/ImmediatelyFast-Fabric-1.17.1+26.3.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/5ZwdcRci/versions/3MP9UR23/ImmediatelyFast-Fabric-1.17.1%2B26.3.jar",
+      "sha256": "4b346661cd0811d98a6df8c9faeb8fafd9326ab88248430e8bec845ef1ff6dca",
+      "size": 99586
+    },
+    {
+      "path": "mods/iris-fabric-1.11.7+mc26.3.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/YL57xq9U/versions/vTN4NRGW/iris-fabric-1.11.7%2Bmc26.3.jar",
+      "sha256": "83ab4d3013dd56ac05ae503a2f596968911001c4ef3d82c59c5c79e64c34dd98",
+      "size": 2850938
+    },
+    {
+      "path": "mods/ItemBorders-26.3-fabric-1.3.3.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/b1fMg6sH/versions/pVZMoGZS/ItemBorders-26.3-fabric-1.3.3.jar",
+      "sha256": "954a772493561a86f96513cc7480dd614eb1ec085844ee9a5dda2be307f1863d",
+      "size": 23010
+    },
+    {
+      "path": "mods/Jade-mc26.3-Fabric-26.3.5.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/nvQzSEkH/versions/71CTWqdE/Jade-mc26.3-Fabric-26.3.5.jar",
+      "sha256": "4899d6c60afa2af859b3a7e0824d0ef6b404f26458f831e3d877faa36be9af1c",
+      "size": 1092685
+    },
+    {
+      "path": "mods/jamlib-fabric-2.3.2+26.3.x.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/IYY9Siz8/versions/G6vke27r/jamlib-fabric-2.3.2%2B26.3.x.jar",
+      "sha256": "c125d087d45c23192c6c1823cd00d2ea7c0c38870865a7a96ad97d1cfc87eb4e",
+      "size": 265519
+    },
+    {
+      "path": "mods/jei-26.3-fabric-31.17.0.113.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/u6dRKJwZ/versions/zX75GFgt/jei-26.3-fabric-31.17.0.113.jar",
+      "sha256": "b1b26d04fb9cf574cdf66f2f7da58d0d743bb47d15eaa1dfdece5ba8973a23e1",
+      "size": 4829947
+    },
+    {
+      "path": "mods/lambdynamiclights-4.13.0+26.3.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/yBW8D80W/versions/rylKnJ4M/lambdynamiclights-4.13.0%2B26.3.jar",
+      "sha256": "b7550288423affed86370acd80d064876d7e256f5489461b7ff7941627552ab2",
+      "size": 1345715
+    },
+    {
+      "path": "mods/language-reload-1.7.8+26.3.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/uLbm7CG6/versions/QVn4cccd/language-reload-1.7.8%2B26.3.jar",
+      "sha256": "b40ae2cc0e06f222ef30ef3d3d9fb54d31c6ab137d650c3734609c4317b98986",
+      "size": 79325
+    },
+    {
+      "path": "mods/leavesbegone-v26.3.0-mc26.3.x+fabric.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/AVq17PqV/versions/Ttuy044k/leavesbegone-v26.3.0-mc26.3.x%2Bfabric.jar",
+      "sha256": "4d84b84527e0a1761bf95f449d381e60d8f0958adde3a3b56503039a27dbaace",
+      "size": 42796
+    },
+    {
+      "path": "mods/letmedespawn-fabric-26.3-1.26.11.1.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/vE2FN5qn/versions/a3ISt6Ob/letmedespawn-fabric-26.3-1.26.11.1.jar",
+      "sha256": "c8229fa00f7ecce42457b4cc8234743fc87bc2186903e7ae6ebc9741907468ec",
+      "size": 30356
+    },
+    {
+      "path": "mods/lithium-fabric-0.26.3+mc26.3.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/fWv5bnZk/lithium-fabric-0.26.3%2Bmc26.3.jar",
+      "sha256": "103b6aab3932f119155565254a3f33b1be0da26b9bf7a5eec24851542144fc78",
+      "size": 919892
+    },
+    {
+      "path": "mods/lithostitched-2.0.6-fabric-26.3.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/XaDC71GB/versions/pZgI6b2t/lithostitched-2.0.6-fabric-26.3.jar",
+      "sha256": "31c5fff53420a2af5aa231a7620af089054456d9a0cfc763e571332e0253872b",
+      "size": 997092
+    },
+    {
+      "path": "mods/mezz_config-26.3-fabric-0.7.1.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/7tEfOcA7/versions/26GXFp06/mezz_config-26.3-fabric-0.7.1.jar",
+      "sha256": "d28b3671c2f845522b8a91c9109e95ed6d6bf4682f17299a5872cec05a5cd873",
+      "size": 390537
+    },
+    {
+      "path": "mods/midnightlib-fabric-1.10.0+26.3.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/codAaoxh/versions/G9RaNHAC/midnightlib-fabric-1.10.0%2B26.3.jar",
+      "sha256": "026883c754e53e13726c3dbe31bd661533ece702c0c20bbc9415a5deb1b74b29",
+      "size": 65973
+    },
+    {
+      "path": "mods/modmenu-21.0.1.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/mOgUt4GM/versions/xckkBHD5/modmenu-21.0.1.jar",
+      "sha256": "d7be5d007b1d908ee3c3109e337b208d94e6ef7dd6bd143397237a0e03579005",
+      "size": 862761
+    },
+    {
+      "path": "mods/MossyLib-1.6.0+26.3+fabric.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/ffLDUGbm/versions/yMuPxSiE/MossyLib-1.6.0%2B26.3%2Bfabric.jar",
+      "sha256": "9d5a0864d77ac4945dba9e30321d6023da5f95dd818ae07103998dfaf5c17855",
+      "size": 183643
+    },
+    {
+      "path": "mods/MouseTweaks-fabric-mc26.3-2.31.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/aC3cM3Vq/versions/LeMuMhLv/MouseTweaks-fabric-mc26.3-2.31.jar",
+      "sha256": "7fa35df568c870c45fd144dc9a54139459ded823615dda32bc09d9025831e655",
+      "size": 74569
+    },
+    {
+      "path": "mods/mru-1.0.45+26.3-fabric.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/SNVQ2c0g/versions/22Tvjurn/mru-1.0.45%2B26.3-fabric.jar",
+      "sha256": "0e8fac04f58c2ddea51e450208074a350e5f46064324788c24b49cc443d2b5d2",
+      "size": 169134
+    },
+    {
+      "path": "mods/netherportalfix-fabric-26.3-26.3.0.1.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/nPZr02ET/versions/RC1fmH8z/netherportalfix-fabric-26.3-26.3.0.1.jar",
+      "sha256": "c873a57b49669ce9306256b12fdae38250974dff1372d4176304c928cba85ff6",
+      "size": 215448
+    },
+    {
+      "path": "mods/NoChatReports-FABRIC-26.3-v2.21.0.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/qQyHxfxd/versions/6g96avt2/NoChatReports-FABRIC-26.3-v2.21.0.jar",
+      "sha256": "d346391bea7991ba5d5eb3c8308a414bfc6734d6d220bece84e76966c834b5bf",
+      "size": 239561
+    },
+    {
+      "path": "mods/notenoughanimations-fabric-1.12.7-mc26.3.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/MPCX6s5C/versions/bznXVEiI/notenoughanimations-fabric-1.12.7-mc26.3.jar",
+      "sha256": "f0c4fedede73c9455a0c437c3aebb542396d470d0beb1386b57eda7f34b7a67e",
+      "size": 1866974
+    },
+    {
+      "path": "mods/particle_core-0.3.3+fix1+26.2.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/RSeLon5O/versions/NPLw1nMG/particle_core-0.3.3%2Bfix1%2B26.2.jar",
+      "sha256": "63faafcec078ea567a410f75fe449ae6895d29028686a144c18e5121c9552a6b",
+      "size": 141191
+    },
+    {
+      "path": "mods/particular-26.3-Fabric-1.6.1.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/pYFUU6cq/versions/L9QVxoJh/particular-26.3-Fabric-1.6.1.jar",
+      "sha256": "1a13400267b74773697d48d8f4e76ded68053fabd976eab4d0d04552516039fd",
+      "size": 374548
+    },
+    {
+      "path": "mods/pickupnotifier-v26.3.0-mc26.3.x+fabric.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/ZX66K16c/versions/veV20ScD/pickupnotifier-v26.3.0-mc26.3.x%2Bfabric.jar",
+      "sha256": "832383ec1daf70575bf789ba15229b0542994e5055d7e078eb239a7778a8202b",
+      "size": 72607
+    },
+    {
+      "path": "mods/placeholder-api-3.2.0+26.3.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/lXytLqWj/placeholder-api-3.2.0%2B26.3.jar",
+      "sha256": "d9a5351b42a8d79cfc2e7f2a471472f9e4dff3b13874c8d420dbb93600b91a85",
+      "size": 254959
+    },
+    {
+      "path": "mods/player-death-corpses-3.8.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/jzoouHnf/versions/dqNslZrU/player-death-corpses-3.8.jar",
+      "sha256": "30e1e11c7d1092cdd67a53e59bd2d8c48b38bfd196652acc99875438d06cd18e",
+      "size": 583003
+    },
+    {
+      "path": "mods/PrickleMC-fabric-MC26.3-26.3.0.2.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/aaRl8GiW/versions/aPdekuq6/PrickleMC-fabric-MC26.3-26.3.0.2.jar",
+      "sha256": "87e1559cdb66684784e25eb08e096f6918e81f6b3c473588a491295ea8bf9682",
+      "size": 85386
+    },
+    {
+      "path": "mods/Prism-26.3-fabric-1.1.3.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/1OE8wbN0/versions/ETN2U7Rc/Prism-26.3-fabric-1.1.3.jar",
+      "sha256": "2abadba0325de2e50d428f6275d7c21a67c6b4a3fa3020f06c127f0523e0dbb5",
+      "size": 60462
+    },
+    {
+      "path": "mods/puzzleslib-v26.3.18-mc26.3.x+fabric.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/QAGBst4M/versions/TZ0hp2h3/puzzleslib-v26.3.18-mc26.3.x%2Bfabric.jar",
+      "sha256": "1b893c7276843a755c560d47707d09e0e9b8eee4a741c1044b524d44229fc2b2",
+      "size": 1095082
+    },
+    {
+      "path": "mods/reeses-sodium-options-fabric-2.2.5+mc26.3.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/Bh37bMuy/versions/EfchygKx/reeses-sodium-options-fabric-2.2.5%2Bmc26.3.jar",
+      "sha256": "b692acb0f84d7477deae48e2ba0908e1913c0d87db53daa4d23cbe646e9028f0",
+      "size": 258082
+    },
+    {
+      "path": "mods/repurposed_structures-7.8.4+26.3-fabric.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/muf0XoRe/versions/9jHXeIeI/repurposed_structures-7.8.4%2B26.3-fabric.jar",
+      "sha256": "a8242ae6a8df07833fb2c4bea6fc0cd60064918db6890b243fc2e4992ad38abf",
+      "size": 8911387
+    },
+    {
+      "path": "mods/rightclickharvest-fabric-4.7.0+26.3.x.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/Cnejf5xM/versions/NDyAQPGm/rightclickharvest-fabric-4.7.0%2B26.3.x.jar",
+      "sha256": "add778d1c1a4f356afac996c70b7ee82fe52b7d28153d9377eadf0c15f16c0df",
+      "size": 280698
+    },
+    {
+      "path": "mods/ScalableLux-fabric-mc26.3-0.3.0-alpha.0.6-all.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/Ps1zyz6x/versions/g4eqNSKd/ScalableLux-fabric-mc26.3-0.3.0-alpha.0.6-all.jar",
+      "sha256": "e9137a04fdefca4fd1f4740ab3dc6194b5ea7c15456c6691376b910053853a29",
+      "size": 193021
+    },
+    {
+      "path": "mods/servercore-fabric-1.5.20+26.3.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/4WWQxlQP/versions/LCG1Bm84/servercore-fabric-1.5.20%2B26.3.jar",
+      "sha256": "62fba7c2c7915b73f68af9cfa3a616473dd58865dc5c213b46ddd678b1aa9065",
+      "size": 901416
+    },
+    {
+      "path": "mods/shatterlib-fabric-0.7.0-beta.5+26.3.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/RH2KUdKJ/versions/yGChlg17/shatterlib-fabric-0.7.0-beta.5%2B26.3.jar",
+      "sha256": "6ae75134565c40e48d72eb1b913b58b2514a4cdcf3526133fc216393802d9595",
+      "size": 419976
+    },
+    {
+      "path": "mods/shulkerboxtooltip-fabric-5.4.3+26.3.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/2M01OLQq/versions/60krd8u8/shulkerboxtooltip-fabric-5.4.3%2B26.3.jar",
+      "sha256": "2d4a8abd7f7b66daa5073bf5ea2871b3f2d94864d2497d945f71cc961980aaa6",
+      "size": 424841
+    },
+    {
+      "path": "mods/skinrestorer-2.11.1+26.3-fabric.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/ghrZDhGW/versions/uPYFkQMi/skinrestorer-2.11.1%2B26.3-fabric.jar",
+      "sha256": "3e28e5551fc4963aea7c18b2355a23c7ab4f715d4816ce9550e21a453707cbe2",
+      "size": 286794
+    },
+    {
+      "path": "mods/smoothscroll-3.0.2.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/CllP7wW0/versions/fE9IISvs/smoothscroll-3.0.2.jar",
+      "sha256": "e2265cfa2993e548dd8fa2bbb362bb453ef02fde83c68176f0d8b957cb27fbf8",
+      "size": 105508
+    },
+    {
+      "path": "mods/smoothswapping-0.9.11-26.3-fabric.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/ydZic5r4/versions/TYYQn5Mn/smoothswapping-0.9.11-26.3-fabric.jar",
+      "sha256": "050ad2b0bc97e36599944666b065beb91d4b15c85a3db34c796b747468dc26b5",
+      "size": 67614
+    },
+    {
+      "path": "mods/sodium-extra-fabric-0.9.5+mc26.3.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/PtjYWJkn/versions/fs5l9Q1U/sodium-extra-fabric-0.9.5%2Bmc26.3.jar",
+      "sha256": "486d54cd1914e8c8e49c2f02b3e760f1a0d64c0d242ae175870784582b374dc2",
+      "size": 481973
+    },
+    {
+      "path": "mods/sodium-fabric-0.9.2+mc26.3.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/AANobbMI/versions/bAZQdGpg/sodium-fabric-0.9.2%2Bmc26.3.jar",
+      "sha256": "87a5bb39f7e6e41106e77f122f82fc93f9d3bc0b6ebcb746b314172a446a287a",
+      "size": 1908068
+    },
+    {
+      "path": "mods/sounds-2.6.0+26.3-fabric.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/ZouiUX7t/versions/QCFPBvDa/sounds-2.6.0%2B26.3-fabric.jar",
+      "sha256": "f9ec9c0abfebbbbf255c827e23892fc38d02ed3ff60da2be002f4c87f5ae249e",
+      "size": 8143246
+    },
+    {
+      "path": "mods/Structory_26.3_v1.3.18+26.3.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/aKCwCJlY/versions/GjOkOVW4/Structory_26.3_v1.3.18%2B26.3.jar",
+      "sha256": "27f8a13e26c241448e4a5a821db2c2b017942d0103e01d099347c040144200a3",
+      "size": 1261901
+    },
+    {
+      "path": "mods/Structory_Towers_26.3_v1.0.19+26.3.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/j3FONRYr/versions/5ntmnN83/Structory_Towers_26.3_v1.0.19%2B26.3.jar",
+      "sha256": "07d31840a122b9aa5c8b0479daffb85bb76cf157a294244b538298b6268e853e",
+      "size": 483525
+    },
+    {
+      "path": "mods/Terralith_26.3_v2.6.5+26.3.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/8oi3bsk5/versions/aGE3hYAA/Terralith_26.3_v2.6.5%2B26.3.jar",
+      "sha256": "ad953bdd258d23b85c6e5955d14fed89a525e50c68a80ac5cd652573068d0ca4",
+      "size": 2954218
+    },
+    {
+      "path": "mods/trade-cycling-fabric-1.0.23+26.3.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/qpPoAL6m/versions/FKbMeHEw/trade-cycling-fabric-1.0.23%2B26.3.jar",
+      "sha256": "fcadd701cfdef4466ed8538231e08255b049243f725241948fc93fc21816ba32",
+      "size": 554933
+    },
+    {
+      "path": "mods/travelersbackpack-fabric-26.3-11.4.4.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/rlloIFEV/versions/Vrtb34Ji/travelersbackpack-fabric-26.3-11.4.4.jar",
+      "sha256": "09b6a5d079b33f5d2b290318c999123e39322108c908276c264f75ee50383a77",
+      "size": 1547858
+    },
+    {
+      "path": "mods/treeharvester-26.3.0-11.1.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/abooMhox/versions/GCpaubja/treeharvester-26.3.0-11.1.jar",
+      "sha256": "2ba7becd8fdd0e380ccd856b5e379a945a39745321e154511116deafaef8baed",
+      "size": 169562
+    },
+    {
+      "path": "mods/t_and_t-fabric-neoforge-1.13.13.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/DjLobEOy/versions/vHZIKy6e/t_and_t-fabric-neoforge-1.13.13.jar",
+      "sha256": "2336815d788efc2dfcd545986cfb507c4a9dc026da1c1aaf646305f58a74155c",
+      "size": 3194933
+    },
+    {
+      "path": "mods/xaerominimap-fabric-26.3-26.6.2.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/1bokaNcj/versions/MfxfgXaO/xaerominimap-fabric-26.3-26.6.2.jar",
+      "sha256": "418f8b1481cfa133d366c2224ecddec79cc466152754febcb1b386137e2d5f71",
+      "size": 2233189
+    },
+    {
+      "path": "mods/xaeroworldmap-fabric-26.3-1.47.2.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/NcUtCpym/versions/VM8lNSSM/xaeroworldmap-fabric-26.3-1.47.2.jar",
+      "sha256": "815fbfd7da1e0c3b6a7a05227b7b342c7857fe6ab0fe42f072e14f8dfc19e1f8",
+      "size": 1488669
+    },
+    {
+      "path": "mods/yet_another_config_lib_v3-3.9.7+26.3-fabric.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/1eAoo2KR/versions/s9SjoFu1/yet_another_config_lib_v3-3.9.7%2B26.3-fabric.jar",
+      "sha256": "c52d41d444522d9abba994cd4c4ee2e71a065d7c31010f92a9959b80ccb4b0f5",
+      "size": 1125377
+    },
+    {
+      "path": "mods/zoomify-2.17.0+mc26.3-universal.jar",
+      "source": "modrinth",
+      "url": "https://cdn.modrinth.com/data/w7ThoJFB/versions/RUBpNu00/zoomify-2.17.0%2Bmc26.3-universal.jar",
+      "sha256": "134edcc2992d2f6c3793746101dec1aba3ef02f046024fd280afb09094593027",
+      "size": 579146
+    }
+  ]
+}
