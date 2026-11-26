@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "packVersion": "1.0 - test 2",
+  "packVersion": "1.1 - test 2",
   "server": {
     "name": "Eternum",
     "ip": "eternum.aurorix.pro"
@@ -17,13 +17,6 @@
     "clientId": "astralforge1"
   },
   "files": [
-    {
-      "path": "mods/AmbientSounds_NEOFORGE_v6.3.11_mc1.21.1.jar",
-      "source": "modrinth",
-      "url": "https://cdn.modrinth.com/data/fM515JnW/versions/WGalCQAo/AmbientSounds_NEOFORGE_v6.3.11_mc1.21.1.jar",
-      "sha256": "72f57a9ba621f18994a17c5882f2d7fa34d27fa3614c1073d49bd3deda61b8d8",
-      "size": 84815086
-    },
     {
       "path": "mods/Clumps-neoforge-1.21.1-19.0.0.1.jar",
       "source": "modrinth",
@@ -107,13 +100,6 @@
       "url": "https://cdn.modrinth.com/data/Wb5oqrBJ/versions/ZPylso9i/chat_heads-0.15.7-neoforge-1.21.jar",
       "sha256": "02e10437ceeed34e14e0efe206204658e4b8aa8ee7df10f2a9e28ac20f1b0391",
       "size": 91948
-    },
-    {
-      "path": "mods/create-1.21.1-6.0.10.jar",
-      "source": "modrinth",
-      "url": "https://cdn.modrinth.com/data/LNytGWDc/versions/UjX6dr61/create-1.21.1-6.0.10.jar",
-      "sha256": "ef87fe5709f1ba1f5b8bb20a2925b5afb4669e178fd6d8bf10c167759eefe37a",
-      "size": 19123767
     },
     {
       "path": "mods/dynamic-fps-3.11.4+minecraft-1.21.0-neoforge.jar",
