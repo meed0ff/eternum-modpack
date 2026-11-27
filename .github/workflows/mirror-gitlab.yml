@@ -26,7 +26,7 @@ jobs:
         env:
           GITLAB_TOKEN: ${{ secrets.GITLAB_TOKEN }}
         run: |
-          git fetch origin +refs/heads/main:refs/remotes/origin/main --tags
+          git fetch origin +refs/heads/main:refs/remotes/origin/main +refs/tags/*:refs/tags/*
           git remote add gitlab "https://oauth2:${GITLAB_TOKEN}@gitlab.com/meed0ff/eternum-modpack.git"
           git push --force gitlab refs/remotes/origin/main:refs/heads/main
           git push --force gitlab --tags
