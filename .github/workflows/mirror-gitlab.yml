@@ -1,0 +1,32 @@
+name: Mirror Modpack to GitLab
+
+on:
+  push:
+    branches:
+      - main
+    tags:
+      - "v*"
+  workflow_dispatch:
+
+concurrency:
+  group: gitlab-mirror-eternum-modpack
+  cancel-in-progress: false
+
+jobs:
+  mirror:
+    name: Mirror Modpack to GitLab
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout full history
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Push main branch and tags to GitLab
+        env:
+          GITLAB_TOKEN: ${{ secrets.GITLAB_TOKEN }}
+        run: |
+          git fetch origin +refs/heads/main:refs/remotes/origin/main --tags
+          git remote add gitlab "https://oauth2:${GITLAB_TOKEN}@gitlab.com/meed0ff/eternum-modpack.git"
+          git push --force gitlab refs/remotes/origin/main:refs/heads/main
+          git push --force gitlab --tags
